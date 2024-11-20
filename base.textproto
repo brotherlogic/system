@@ -1,0 +1,14 @@
+ha_cluster:{
+    nodes:{
+        ip_address:"129.168.86.92"  
+        network:"enp1s0"
+    }
+    nodes:{
+        ip_address:"129.168.86.92"  
+        network:"enp1s0"
+    }  
+    nodes:{
+        ip_address:"129.168.86.92"  
+        network:"enp1s0"
+    }
+}

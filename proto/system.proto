@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package system;
+
+option go_package = "github.com/brotherlogic/system/proto";
+
+message Bootstrap {
+    HACluster ha_cluster = 1;
+}
+
+message HACluster {
+    repeated Node nodes = 1;
+}
+
+message Node {
+    string ip_address = 1;
+    string network = 2;
+}
